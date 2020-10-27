@@ -145,4 +145,4 @@ static void err_doit(int errnoflag, int error, const char *fmt, va_list ap)
 cp apueerror.h /usr/include
 ```
 
-7. 之后我们写的代码中，`#include "apue.h"` 的下一行要增加 `include "apueerror.h"`
+7. 之后我们写的代码中，`#include "apue.h"` 的下一行要增加 `#include "apueerror.h"`
